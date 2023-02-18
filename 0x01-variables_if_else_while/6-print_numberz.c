@@ -3,17 +3,19 @@
 /**
 * main - Entry point
 *
-* Description: a program that writes alphabets in lowercase
+* Description: a program that writes numbers from 0 to 9
 *
 * Return: always return 0 (success)
 */
 
 int main(void)
 {
-	char b;
+	int numb;
 
-	for (b = '0'; b <= '9'; b++)
-		putchar(b);
+	for (numb = '0'; numb <= '9'; numb++)
+	{
+		putchar(numb + '0');
+	}
 putchar('\n');
 	return (0);
 }
