@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ * description: a program that indicates negative and positive values
+ *
+ * return: always 0 (success)
+ */
 int main(void)
 {
 	int n;
