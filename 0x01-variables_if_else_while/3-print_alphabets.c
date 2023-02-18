@@ -10,14 +10,21 @@
 
 int main(void)
 {
-	char alp;
+	char c = 'a';
 
-	for (alp = 'a'; alp <= 'z'; alp++)
-		putchar (alp);
-	char c;
-
-	for (c = 'A'; c <= 'Z'; c++)
+	while (c <= 'z')
+	{
 		putchar (c);
-	putchar ('\n');
+		c++;
+	}
+
+	c = 'A';
+ 	while (c <= 'Z')
+	{
+		 putchar (c);
+		 c++;
+	}
+	 putchar ('\n');
 	return (0);
 }
+
