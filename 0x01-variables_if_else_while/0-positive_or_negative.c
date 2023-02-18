@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - Entry point
- *
- * description: a program that indicates negative and positive values
- *
- * return: always 0 (success)
- */
+* main - Entry point
+*
+* Description: a program that indicates negative and positive values
+*
+* Return: always return  0 (success)
+*/
 int main(void)
 {
 	int n;
