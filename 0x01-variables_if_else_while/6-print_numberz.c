@@ -10,11 +10,11 @@
 
 int main(void)
 {
-	char numb;
+	int  numb;
 
-	for (numb = '9'; numb >= '0'; numb--)
+	for (numb = '0'; numb <= '9'; numb++)
 	{
-		putchar(numb);
+		putchar(numb + '0');
 	}
 putchar('\n');
 	return (0);
