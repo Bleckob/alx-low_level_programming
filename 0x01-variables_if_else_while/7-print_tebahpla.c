@@ -14,9 +14,8 @@ int main(void)
 
 	for (alp = 'z'; alp >= 'a'; alp--)
 	{
-		putchar (alp + 'z');
+		putchar(alp + 'z');
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
-	getch()
 }
