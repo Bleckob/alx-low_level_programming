@@ -3,19 +3,21 @@
 /**
 * main - Entry point
 *
-* Description: a program that writes numbers backwards from 9 to 0
+* Description: a program that writes numbers from 0 to 9
 *
 * Return: always return 0 (success)
 */
 
 int main(void)
 {
-	int  numb;
+	int  n;
 
-	for (numb = '0'; numb <= '9'; numb++)
+	for (n = '0'; n < 10; n++)
 	{
-		putchar(numb + '9');
+		putchar((n % 10) + '0');
 	}
-putchar('\n');
+
+
+	putchar('\n');
 	return (0);
 }
