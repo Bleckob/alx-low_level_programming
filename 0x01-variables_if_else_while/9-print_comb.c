@@ -11,10 +11,11 @@
 int main(void)
 {
 	int numb = 0;
+
 	while (numb <= 9)
 	{
 		putchar(numb + '0');
-			if ( numb == '5')
+			if (numb == '8')
 				break;
 		putchar(',');
 		putchar(' ');
