@@ -17,9 +17,11 @@ int main(void)
 		putchar(numb + '0');
 			if (numb == '8')
 				break;
-		putchar(',');
-		putchar(' ');
+		{
+			putchar(',');
+			putchar(' ');
 			numb++;
+		}
 	}
 	putchar('\n');
 	return (0);
